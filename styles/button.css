@@ -3,12 +3,12 @@ button {
     margin: 0 auto;
     width: 420px;
     height: 55px;
-    background-color: #7C5E99;
+    background-color: var(--color-second);
     font-family: inherit;
-    color: #fff;
+    color: var(--color-third);
     font-size: 20px;
     border: none;
-    box-shadow: 4px 4px 0px #000000;
+    box-shadow: 4px 4px 0px var(--color-black-first);
     cursor: pointer;
     transition: transform 200ms ease-in-out; /* Aplica o efeito em cima do estabelecido na propriedade transform */
 }

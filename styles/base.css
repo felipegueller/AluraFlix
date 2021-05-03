@@ -1,12 +1,14 @@
 :root {
+    /* Variáveis Locais */
     --color-first: #F25A70;
     --color-second: #7C5E99;
     --color-third: #ffffff;
-    --color-black-primary: #000000;
-    --color-black-second: #324042;
+
+    --color-black-first: #000000;
+    --color-black-second: #3a4042;
 }
 
 body {
-    background-color: #324042;
+    background-color: var(--color-black-second);
     font-family: 'Press Start 2P', cursive;
 }

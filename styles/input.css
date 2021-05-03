@@ -1,14 +1,15 @@
 input {
+    --pading: 10px; /* Variável local*/
     display:block;
     margin: 0 auto;
     width: 420px;
     height: 52px;
-    border: 4px solid #000;
-    box-shadow: 4px 4px 0px #000; /* sombra de elemetos com caixa*/
+    border: 4px solid var(--color-black-first);
+    box-shadow: 4px 4px 0px var(--color-black-first); /* sombra de elemetos com caixa*/
     font-family: inherit;
     font-size: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
     margin-bottom: 40px;
     box-sizing: border-box; /* Faz com que as propriedades (margin, padding) respeitem o tamanho estabelecido no largura (width)*/
 }
