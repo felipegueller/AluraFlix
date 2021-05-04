@@ -1,6 +1,7 @@
 button {
     display:block;
     margin: 0 auto;
+    margin-bottom: 100px;
     width: 420px;
     height: 55px;
     background-color: var(--color-second);
@@ -15,6 +16,7 @@ button {
 
 /* Quando passar o mouse em cima, a propriedade hover é acionada*/
 button:hover {
+    background-color: var(--color-first);
     transform: scale(1.05) ;
     /* Aumenta 5% do tamanho do elemento, levando em consideração a sua altura e largura definida */
 }

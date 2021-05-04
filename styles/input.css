@@ -1,5 +1,5 @@
 input {
-    --pading: 10px; /* Variável local*/
+    --padding: 10px; /* Variável local*/
     display:block;
     margin: 0 auto;
     width: 420px;
@@ -12,4 +12,5 @@ input {
     padding-right: var(--padding);
     margin-bottom: 40px;
     box-sizing: border-box; /* Faz com que as propriedades (margin, padding) respeitem o tamanho estabelecido no largura (width)*/
+    
 }
