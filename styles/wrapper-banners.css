@@ -1,0 +1,12 @@
+.wrapper-banners {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper-banners .wrapper-banner {
+  margin-right: 60px;
+}
+
+.wrapper-banners .wrapper-banner:last-child {
+  margin-right: 0px;
+}
