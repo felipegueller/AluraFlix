@@ -1,4 +1,4 @@
-button {
+.main-button {
     display:block;
     margin: 0 auto;
     width: 420px;
@@ -14,7 +14,7 @@ button {
 }
 
 /* Quando passar o mouse em cima, a propriedade hover é acionada*/
-button:hover {
+.main-button:hover {
     background-color: var(--color-first);
     transform: scale(1.05) ;
     /* Aumenta 5% do tamanho do elemento, levando em consideração a sua altura e largura definida */

@@ -1,4 +1,4 @@
-label {
+.main-label {
     display: block;
     font: 400 25px 'Fira Code', monospace;
     color: var(--color-third);
