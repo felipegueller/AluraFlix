@@ -1,6 +1,7 @@
 .main-button {
     display:block;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 420px;
     height: 55px;
     background-color: var(--color-second);
